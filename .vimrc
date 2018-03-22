@@ -19,6 +19,8 @@ NeoBundle 'Shougo/vimproc.vim', {
 NeoBundle 'Quramy/tsuquyomi'
 NeoBundle 'jason0x43/vim-js-indent'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'jistr/vim-nerdtree-tabs'
+NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 
 call neobundle#end()
 
