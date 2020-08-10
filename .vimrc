@@ -21,4 +21,6 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
