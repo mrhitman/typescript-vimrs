@@ -5,6 +5,9 @@ set noswapfile
 set relativenumber number
 set tabstop=2 shiftwidth=2 expandtab
 
+syntax enable
+set background=dark
+
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
 let g:javascript_plugin_flow = 1
@@ -23,4 +26,5 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'micha/vim-colors-solarized'
 call plug#end()
