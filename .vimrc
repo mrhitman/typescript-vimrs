@@ -1,4 +1,3 @@
-set number
 filetype on
 set noshowmode
 set noswapfile
