@@ -27,5 +27,5 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'                                                                                                                                                           
 Plug 'micha/vim-colors-solarized'                                                                                                                                                               
 Plug 'quramy/tsuquyomi' 
-Plug 'atom/fuzzy-finder'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
