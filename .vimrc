@@ -26,5 +26,6 @@ Plug 'leafgarland/typescript-vim'
 Plug 'vim-airline/vim-airline'                                                                                                                                                                  
 Plug 'vim-airline/vim-airline-themes'                                                                                                                                                           
 Plug 'micha/vim-colors-solarized'                                                                                                                                                               
-Plug 'quramy/tsuquyomi'                                                                                                                                                                         
+Plug 'quramy/tsuquyomi' 
+Plug 'wincent/command-t'
 call plug#end()
