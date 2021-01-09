@@ -3,6 +3,7 @@ set noshowmode
 set noswapfile
 set number
 set hlsearch
+set incsearch
 set tabstop=2 shiftwidth=2 expandtab
 
 syntax enable
