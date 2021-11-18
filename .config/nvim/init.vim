@@ -27,9 +27,20 @@ nmap <C-q>  <Plug>(coc-fix-current)
 nmap s <Plug>(easymotion-s2)
 nmap t <Plug>(easymotion-t2)
 
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
 filetype on
 set noshowmode
-set noswapfile
+set swapfile
 set number
 set hlsearch
 set incsearch
