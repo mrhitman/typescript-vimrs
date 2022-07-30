@@ -8,6 +8,13 @@ call plug#begin('~/.vim/plugged')
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'nvim-treesitter/playground'
 
+  " Flutter
+  Plug 'thosakwe/vim-flutter'
+  Plug 'iamcco/coc-flutter'
+
+  " Golang
+  Plug 'fatih/vim-go'
+
   " Theme
   Plug 'morhetz/gruvbox'
 
