@@ -24,13 +24,19 @@ autocmd FileType typescript :set makeprg=tsc
 map <C-n> :NERDTreeToggle<CR>
 
 call plug#begin()
-Plug 'preservim/nerdtree'
-Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'micha/vim-colors-solarized'
-Plug 'kien/ctrlp.vim'
-Plug 'ajh17/vimcompletesme'
-Plug 'morhetz/gruvbox'
+  Plug 'preservim/nerdtree'
+  Plug 'tpope/vim-fugitive'
+
+  Plug 'pangloss/vim-javascript'
+  Plug 'leafgarland/typescript-vim'
+
+  Plug 'fatih/vim-go'
+
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+  Plug 'micha/vim-colors-solarized'
+  Plug 'morhetz/gruvbox'
+
+  Plug 'kien/ctrlp.vim'
+  Plug 'ajh17/vimcompletesme'
 call plug#end()
