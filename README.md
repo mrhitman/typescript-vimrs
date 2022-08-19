@@ -6,5 +6,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 
 ```sh
-:CocInstall coc-tsserver coc-prettier coc-eslint coc-git
+:CocInstall coc-tsserver coc-prettier coc-eslint coc-git coc-go
 ```
